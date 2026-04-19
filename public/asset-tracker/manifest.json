@@ -1,0 +1,19 @@
+{
+  "name": "Asset Tracker",
+  "short_name": "Assets",
+  "description": "Aktien, ETF und Rohstoffe – Kurse, Entwicklung und News",
+  "start_url": "/asset-tracker",
+  "scope": "/asset-tracker",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0f1419",
+  "theme_color": "#0f1419",
+  "icons": [
+    {
+      "src": "/asset-tracker/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
