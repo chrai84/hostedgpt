@@ -23,6 +23,11 @@ Rails.application.routes.draw do
     end
   end
 
+  get "/asset-tracker", to: "asset_tracker#index", as: :asset_tracker
+  get "/asset-tracker/chart", to: "asset_tracker#chart"
+  get "/asset-tracker/news", to: "asset_tracker#news"
+  get "/asset-tracker/search", to: "asset_tracker#search"
+
   get "/login", to: "authentications#new"
   post "/login", to: "authentications#create"
   get "/register", to: "users#new"
